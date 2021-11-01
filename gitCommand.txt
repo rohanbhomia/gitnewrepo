@@ -1,5 +1,6 @@
 Delete the index lock file - rm -Force ./.git/index.lock
 Add files to commit        - git add <filename>
+Add all files to commit    - git add --all
 Change the branch          - git checkout -b your-new-branch
 Commit staged files        - git commit -m "commit" 
 Push your commits          - git push
@@ -12,4 +13,7 @@ Pushing project to github
 3> git add --all
 4> git commit -m "commit"
 5> git remote add origin https://github.com/rohanbhomia/djangoReplica.git
-6> git push -u --force origin master
+6> git push -u --force origin <branch name>
+
+-------------------------------------------------------------------
+git clone -b <branch> <repo link>
