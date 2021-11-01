@@ -1,4 +1,2 @@
-this is first edit
-this is second edit
-this is third edit
-this is fourth edit
+Delete the index lock file - rm -Force ./.git/index.lock
+Change the branch          - git checkout -b your-new-branchg
